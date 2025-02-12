@@ -1,7 +1,10 @@
+body {
+    padding-top: 50px; /* Ensure the content does not overlap the navbar */
+}
 
 .navbar {
     margin-bottom: 0;
-    background-color: #ababab;
+    background-color: #878787;
     border-bottom: black solid;
 }
 

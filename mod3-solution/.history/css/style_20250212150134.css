@@ -1,7 +1,10 @@
+body {
+    padding-top: 50px; /* Ensure the content does not overlap the navbar */
+}
 
 .navbar {
     margin-bottom: 0;
-    background-color: #ababab;
+    background-color: #878787;
     border-bottom: black solid;
 }
 
@@ -16,29 +19,11 @@
     width: 100%;
     padding-top: 10px;
 }
-.navbar-brand-text {
-    font-weight: bold;
-    color: black;
-    font-size: 18px;
-    padding: 15px 20px;
-    display: inline-block;
+
+.navbar-nav > li > a {
+    color: white;
 }
 
-
-.nav-url {
-    width: 40%;
-    margin: 0 15px;
-    border: black solid;
-    border-radius: 5px;
-    font-size: 14px;
-    background-color: #f0f0f0;
-}
-
-.search {
-    width: 150px;
-    border: black solid;
-    border-radius: 5px;
-}
 .menu-section {
     border: 1px solid #ccc;
     padding: 20px;
